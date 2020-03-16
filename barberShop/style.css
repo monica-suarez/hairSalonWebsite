@@ -4,10 +4,11 @@ header{
     height: 200px;
     background-image: url(mustacheWallpaper.jpg);
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     background-repeat: no-repeat;
     background-size: cover;
+    align-items: center;
 }
 #header-text{
     display: flex;
@@ -21,5 +22,27 @@ header{
     font-family: 'Bigelow Rules', cursive;
     font-size: 72px;
     font-weight: bold;
+    margin-bottom: 30px;
+}
+.nav-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: transparent;
+    padding: 5px;
+}
+.button{
+    border-radius: 25px;
+    margin-top: 5px;
+    background: white;
+    padding: 5px;
+    color: rgba(6, 39, 170, 0.747);
+    font-weight: bold;
+    justify-content: space-evenly;
+    margin-right: 25px;
+}
+nav a:hover{
+    background-color:rgba(6, 39, 170, 0.747);
+    color: white;
 }
 }
