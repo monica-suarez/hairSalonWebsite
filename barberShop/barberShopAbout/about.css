@@ -1,0 +1,55 @@
+header{
+    width: 100%;
+    background-image: url(../mustacheWallpaper.jpeg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+}
+#header-text{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    background-color: transparent;
+    color: rgb(241, 91, 91);
+    font-family: 'Bigelow Rules', cursive;
+    font-weight: 900;
+    background-color: rgba(255, 255, 255, 0.65);
+}
+.button{
+    text-decoration: none !important;
+}
+@media (max-width: 650px){
+header{
+    height: 200px;
+}
+#header-text{
+    margin-bottom: 30px;
+    margin-top: 8px;
+    margin-right: 10px;
+    height: 95px;
+    width: 300px;
+    font-size: 92px;
+}
+    
+.nav-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: transparent;
+    padding: 5px;
+}
+.button{
+    border-radius: 25px;
+    margin-top: 5px;
+    background: white;
+    padding: 5px;
+    color: rgba(6, 39, 170, 0.747);
+    font-weight: bold;
+    justify-content: space-evenly;
+    margin-right: 25px;
+}
+}
