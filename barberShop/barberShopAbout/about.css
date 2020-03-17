@@ -52,4 +52,70 @@ header{
     justify-content: space-evenly;
     margin-right: 25px;
 }
+nav a:hover{
+    background-color:rgba(6, 39, 170, 0.747);
+    color: white;
+}
+}
+@media (min-width: 651px){
+header{
+    height: 250px;
+}
+#header-text{
+    font-size: 96px;
+}
+.nav-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: transparent;
+    padding: 20px;
+}
+.button{
+    border-radius: 55px;
+    margin-top: 15px;
+    padding: 10px;
+    background: white;
+    color: rgba(6, 39, 170, 0.747);
+    font-weight: bold;
+    justify-content: space-evenly;
+    margin-right: 25px;
+    font-size: 18px;
+}
+nav a:hover{
+    background-color:rgba(6, 39, 170, 0.747);
+    color: white;
+}
+}
+@media (min-width: 1025px){
+header{
+    height: 300px;
+    margin-bottom: 40px;
+    }
+    #header-text{
+    font-size: 128px;
+}
+.nav-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: transparent;
+    padding: 20px;
+}
+.button{
+    border-radius: 55px;
+    margin-top: 15px;
+    padding: 15px;
+    background: white;
+    color: rgba(6, 39, 170, 0.747);
+    font-weight: bold;
+    justify-content: space-evenly;
+    margin-right: 45px;
+    margin-left: 40px;
+    font-size: 24px;
+}
+nav a:hover{
+    background-color:rgba(6, 39, 170, 0.747);
+    color: white;
+}
 }
