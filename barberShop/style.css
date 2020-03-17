@@ -44,6 +44,9 @@
     padding-top: 10px;
     font-family: 'IM Fell DW Pica SC', serif;
 }
+.pic-descr{
+    font-family: 'IM Fell DW Pica SC', serif;
+}
 
 @media (max-width: 600px){
 header{
@@ -98,10 +101,20 @@ nav a:hover{
 .content{
     margin-top: 20px;
 }
+.pic{
+    margin-bottom: 20px;
+}
 .pic-2{
     display: block;
     width: 100%;
     height: auto;
-    margin-top: 20px;
+    margin-top: 5px;
+}
+.pic-descr{
+    display: flex;
+    flex-direction: column;
+    font-size: 32px;
+    align-items: center;
+    justify-content: center;
 }
 }
