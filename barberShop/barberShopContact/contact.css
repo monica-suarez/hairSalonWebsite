@@ -166,7 +166,7 @@ nav a:hover{
 }
 @media (min-width: 651px){
 header{
-    height: 250px;
+height: 250px;
 }
 #header-text{
     font-size: 96px;
@@ -185,9 +185,30 @@ header{
     background: white;
     color: rgba(6, 39, 170, 0.747);
     font-weight: bold;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin-right: 25px;
     font-size: 18px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+}
+.top-info{
+    display: flex;
+    flex-direction: row;
+    float: left;
+    justify-content: space-evenly;
+}
+.contact-info{
+    margin-bottom: 30px;
+}
+.contact-heading{
+    font-size: 28px;
+    margin-top: 20px;
+}
+#banner{
+    width: 70%;
+    align-content: center;
 }
 nav a:hover{
     background-color:rgba(6, 39, 170, 0.747);
