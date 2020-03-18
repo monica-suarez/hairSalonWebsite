@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 header{
     width: 100%;
     background-image: url(../mustacheWallpaper.jpeg);
@@ -29,6 +32,22 @@ header{
     color: white;
     background-size: 200px;
     text-align: center;
+}
+.content-row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+.image{
+    position: relative;
+}
+.pic{
+    border: 2px solid rgb(137, 137, 141);
+    display: block;
+    width: 100%;
+    height: auto;
 }
 .footer{
     background-color:rgba(6, 39, 170, 0.836);
@@ -89,7 +108,6 @@ nav a:hover{
     padding: 5%;
 }
 .pic{
-    border: 2px solid rgb(137, 137, 141);
     margin-bottom: 10px;
     width: 80%;
 }
@@ -107,9 +125,9 @@ nav a:hover{
 }
 }
 @media (min-width: 651px){
-/* * {
-    box-sizing: border-box;
-} */
+.body {
+    margin: 0;
+}
 header{
     height: 250px;
 }
@@ -138,6 +156,30 @@ nav a:hover{
     background-color:rgba(6, 39, 170, 0.747);
     color: white;
 }
+#banner{
+    width: 65%;
+    margin-left: 17.5%;
+    margin-right: 17.5%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 5px; 
+    padding-bottom: 5px;
+    font-size: 64px;
+}
+.content-row{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    justify-content: space-evenly;
+    margin: 0 auto;
+}
+.column{
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+    padding: 0 4px;
+
+}
 .footer{
     margin-top: 20px;
     padding-top: 5px;
@@ -159,9 +201,6 @@ nav a:hover{
 }
 }
 @media (min-width: 1025px){
-/* * {
-    box-sizing: border-box;
-} */
 header{
     height: 300px;
     margin-bottom: 40px;
@@ -192,6 +231,25 @@ nav a:hover{
     background-color:rgba(6, 39, 170, 0.747);
     color: white;
 }
+.content-row{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.column{
+    -ms-flex: 25%;
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
 .footer{
     margin-top: 40px;
     padding-top: 5px;
