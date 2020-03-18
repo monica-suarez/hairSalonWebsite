@@ -37,6 +37,24 @@ header{
     background-size: 200px;
     text-align: center;
 }
+.box{
+    text-align: center;
+    border: 2px solid black;
+    font-family: 'IM Fell DW Pica SC', serif;
+}
+#message{
+    text-align: center;
+    border: 2px solid black;
+    font-family: 'IM Fell DW Pica SC', serif;
+}
+.end-buttons{
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgb(241, 91, 91);
+    color: white;
+    font-family: 'Bigelow Rules', cursive;
+}
 .footer{
     background-color:rgba(6, 39, 170, 0.836);
     color: white;
@@ -103,6 +121,34 @@ nav a:hover{
     padding-top: 5px; 
     padding-bottom: 5px;
     font-size: 46px;
+    margin-bottom: 20px;
+}
+.box{
+    width: 70%;
+    margin-right: 15%;
+    margin-left: 15%;
+    height: 36px;
+    font-size: 16px;
+}
+#message{
+    width: 70%;
+    margin-right: 15%;
+    margin-left: 15%;
+    height: 250px;
+    overflow: auto;
+    resize: none;
+    font-size: 16px;
+}
+.end-buttons{
+    margin-left: 15%;
+    margin-top: 10px;
+    text-decoration: underline;
+    height: 30px;
+    width: 70px;
+    font-size: 24px;
+    border: none;
+    border-radius: 5%;
+    
 }
 .footer{
     margin-top: 10px;
