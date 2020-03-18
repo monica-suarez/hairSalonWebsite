@@ -22,6 +22,14 @@ header{
 .button{
     text-decoration: none;
 }
+#banner{
+    font-family: 'Bigelow Rules', cursive;
+    font-weight: bold;
+    background-color: rgb(241, 91, 91);
+    color: white;
+    background-size: 200px;
+    text-align: center;
+}
 .footer{
     background-color:rgba(6, 39, 170, 0.836);
     color: white;
@@ -41,12 +49,12 @@ header{
     width: 300px;
     font-size: 92px;
 }
-    .nav-buttons{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    background-color: transparent;
-    padding: 5px;
+.nav-buttons{
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+background-color: transparent;
+padding: 5px;
 }
 .button{
     border-radius: 25px;
@@ -62,8 +70,30 @@ nav a:hover{
     background-color:rgba(6, 39, 170, 0.747);
     color: white;
 }
+#banner{
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 50px;
+    padding-top: 5px; 
+    padding-bottom: 5px;
+    font-size: 42px;
+    margin-bottom: 30px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.content-row{
+    padding: 5%;
+}
+.pic{
+    border: 2px solid rgb(137, 137, 141);
+    margin-bottom: 10px;
+    width: 80%;
+}
 .footer{
-    margin-top: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
