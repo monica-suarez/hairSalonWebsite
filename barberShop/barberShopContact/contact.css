@@ -307,6 +307,32 @@ nav a:hover{
     background-color:rgba(6, 39, 170, 0.747);
     color: white;
 }
+.contact-heading{
+    font-size: 48px;
+}
+#location{
+    font-size: 24px;
+}
+#hours{
+    font-size: 24px;
+}
+#banner{
+    font-size: 72px;
+    margin-bottom: 50px;
+}
+#message{
+    margin-bottom: 40px;
+}
+.end-buttons{
+    margin-top: 10px;
+    text-decoration: underline;
+    height: 50px;
+    width: 95px;
+    font-size: 36px;
+    border: none;
+    border-radius: 5%;
+    margin-bottom: 40px;
+}
 .footer{
     margin-top: 40px;
     padding-top: 5px;
