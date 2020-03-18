@@ -328,4 +328,8 @@ nav a:hover{
         height: 42px;
         justify-content: center;
 }
+.content{
+    display: flex;
+    flex-direction: column;
+}
 }

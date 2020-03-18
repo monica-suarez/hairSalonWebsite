@@ -22,6 +22,13 @@ header{
 .button{
     text-decoration: none !important;
 }
+.footer{
+    background-color:rgba(6, 39, 170, 0.836);
+    color: white;
+}
+.icon{
+    background-color: white;
+}
 @media (max-width: 650px){
 header{
     height: 200px;
@@ -56,6 +63,19 @@ nav a:hover{
     background-color:rgba(6, 39, 170, 0.747);
     color: white;
 }
+.footer{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100px;
+}
+.icon{
+    margin-right: 20px;
+    margin-left: 20px;
+    height: 32px;
+}
 }
 @media (min-width: 651px){
 header{
@@ -85,6 +105,25 @@ header{
 nav a:hover{
     background-color:rgba(6, 39, 170, 0.747);
     color: white;
+}
+.footer{
+    margin-top: 20px;
+    padding-top: 5px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#copyright{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.icon{
+    margin-left: 40px;
+    height: 42px;
+    justify-content: center;
+
 }
 }
 @media (min-width: 1025px){
@@ -117,5 +156,23 @@ header{
 nav a:hover{
     background-color:rgba(6, 39, 170, 0.747);
     color: white;
+}
+.footer{
+    margin-top: 40px;
+    padding-top: 5px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#copyright{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.icon{
+    margin-left: 40px;
+    height: 42px;
+    justify-content: center;
 }
 }
