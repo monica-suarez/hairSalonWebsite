@@ -19,8 +19,41 @@ header{
     font-weight: 900;
     background-color: rgba(255, 255, 255, 0.65);
 }
+#banner{
+    font-family: 'Bigelow Rules', cursive;
+    font-weight: bold;
+    background-color: rgb(241, 91, 91);
+    color: white;
+    background-size: 200px;
+    text-align: center;
+}
 .button{
     text-decoration: none;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.box{
+    border: 2px solid rgb(137, 137, 141);
+    font-family: 'IM Fell DW Pica SC', serif;
+}
+.pic{
+    display: block;
+    height: auto;
+}
+.article-head{
+    text-decoration: underline;
+}
+.read-button{
+    display: block;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgb(241, 91, 91);
+    color: white;
+    font-family: 'Bigelow Rules', cursive;
 }
 .footer{
     background-color:rgba(6, 39, 170, 0.836);
@@ -61,6 +94,45 @@ header{
 nav a:hover{
     background-color:rgba(6, 39, 170, 0.747);
     color: white;
+}
+#banner{
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 50px;
+    padding-top: 5px; 
+    padding-bottom: 5px;
+    font-size: 42px;
+    margin-bottom: 30px;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 30px;
+    align-items: center;
+}
+.pic{
+    width: 100%;
+}
+.article-head{
+    margin-top: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+.article-descr{
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.read-button{
+    height: 35px;
+    width: 75px;
+    font-size: 32px;
+    margin-bottom: 20px;
 }
 .footer{
     margin-top: 10px;
