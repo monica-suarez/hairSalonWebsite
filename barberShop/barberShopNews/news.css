@@ -243,9 +243,6 @@ nav a:hover{
 }
 }
 @media (min-width: 1025px){
-/* * {
-    box-sizing: border-box;
-} */
 header{
     height: 300px;
     margin-bottom: 40px;
@@ -276,8 +273,36 @@ nav a:hover{
     background-color:rgba(6, 39, 170, 0.747);
     color: white;
 }
-.footer{
+#banner{
+    width: 30%;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 50px;
+    padding-top: 5px; 
+    padding-bottom: 5px;
+    font-size: 72px;
+    margin-bottom: 60px;
+}
+.box{
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.article-head{
+    font-size: 28px;
+    font-weight: bold;
+}
+.article-descr{
+    font-size: 20px;
+}
+.read-button{
     margin-top: 40px;
+    height: 40px;
+    width: 85px;
+    font-size: 36px;
+}
+.footer{
+    margin-top: 30px;
     padding-top: 5px;
     height: 50px;
     display: flex;
