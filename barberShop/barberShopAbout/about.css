@@ -69,7 +69,7 @@ header{
 .nav-buttons{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
     background-color: transparent;
     padding: 5px;
 }
@@ -81,7 +81,8 @@ header{
     color: rgba(6, 39, 170, 0.747);
     font-weight: bold;
     justify-content: space-evenly;
-    margin-right: 25px;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 nav a:hover{
     background-color:rgba(6, 39, 170, 0.747);
