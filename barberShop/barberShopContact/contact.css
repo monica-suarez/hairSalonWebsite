@@ -111,6 +111,7 @@ nav a:hover{
 .content{
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 .contact-heading{
     font-size: 24px;
