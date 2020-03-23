@@ -38,7 +38,6 @@ nav a:hover{
     font-weight: bold;
     background-color: rgb(241, 91, 91);
     color: white;
-    background-size: 200px;
     text-align: center;
 }
 .box{
@@ -128,9 +127,9 @@ nav a:hover{
     display: flex;
     flex-direction: row;
     align-items: center;
-    width: 85%;
-    margin-left: 7.5%;
-    margin-right: 7.5%;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
     justify-content: center;
     margin-top: 40px;
     padding-top: 5px; 
