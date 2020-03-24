@@ -1,3 +1,6 @@
+html::-webkit-scrollbar {
+    display: none;
+}
 header{
     width: 100%;
     background-image: url(../mustacheWallpaper.jpeg);
