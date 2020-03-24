@@ -1,9 +1,7 @@
-html::-webkit-scrollbar {
+/* html::-webkit-scrollbar {
     display: none;
-}
-html { 
-    overflow: hidden; 
-}
+} */
+
 header{
     width: 100%;
     background-image: url(../mustacheWallpaper.jpeg);
