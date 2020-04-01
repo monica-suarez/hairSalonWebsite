@@ -97,10 +97,13 @@ header{
     margin-right: 10px;
     margin-left: 10px;
 }
-nav a:hover{
+/* nav a:hover{
     background-color:rgba(6, 39, 170, 0.747);
     color: white;
-}
+} */
+.image .overlay{
+    opacity: 1; 
+} 
 .content{
     margin-top: 20px;
 }
