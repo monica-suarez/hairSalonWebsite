@@ -179,16 +179,16 @@ nav a:hover{
     color: white;
 }
 #over-head{
-    font-size: 58px;
+    font-size: 54px;
     font-weight: bold;
     font-family: 'Bigelow Rules', cursive;
     padding-top: 70px;
 }
 #over-description{
-    font-size: 30px;
+    font-size: 28px;
     padding-left: 60px;
     padding-right: 60px;
-    padding-top: 20px;
+    padding-top: 10px;
     font-family: 'IM Fell DW Pica SC', serif;
 }
 .content{
