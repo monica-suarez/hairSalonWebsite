@@ -108,15 +108,15 @@ header{
     margin-top: 20px;
 }
 #over-head{
-    font-size: 48px;
+    font-size: 40px;
     font-weight: bold;
     font-family: 'Bigelow Rules', cursive;
 }
 #over-description{
-    font-size: 24px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 20px;
+    font-size: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 0px;
     font-family: 'IM Fell DW Pica SC', serif;
 }
 .pic{
@@ -179,16 +179,16 @@ nav a:hover{
     color: white;
 }
 #over-head{
-    font-size: 54px;
+    font-size: 64px;
     font-weight: bold;
     font-family: 'Bigelow Rules', cursive;
-    padding-top: 70px;
+    padding-top: 40px;
 }
 #over-description{
-    font-size: 28px;
-    padding-left: 60px;
-    padding-right: 60px;
-    padding-top: 10px;
+    font-size: 36px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 30px;
     font-family: 'IM Fell DW Pica SC', serif;
 }
 .content{
