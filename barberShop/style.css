@@ -179,13 +179,13 @@ nav a:hover{
     color: white;
 }
 #over-head{
-    font-size: 64px;
+    font-size: 58px;
     font-weight: bold;
     font-family: 'Bigelow Rules', cursive;
-    padding-top: 60px;
+    padding-top: 70px;
 }
 #over-description{
-    font-size: 36px;
+    font-size: 30px;
     padding-left: 60px;
     padding-right: 60px;
     padding-top: 20px;
